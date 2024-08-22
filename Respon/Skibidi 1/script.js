@@ -7,7 +7,7 @@ let nextClicked = false;
 
 nextBtn.addEventListener("click", () => {
     if (!nextClicked) {
-        question.innerHTML = "Thank you for loving me, with all my shortcomings. (Bercandaaa) ";
+        question.innerHTML = "Thank you for loving me, with all my shortcomings. Bercandaaa :vvv";
         gif.src= "https://raw.githubusercontent.com/anstrea/anstrea.github.io/main/Respon/Skibidi%201/thanks.gif";
         nextBtn.innerHTML = "reply";
         nextClicked = true;
