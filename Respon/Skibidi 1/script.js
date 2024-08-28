@@ -7,11 +7,11 @@ let nextClicked = false;
 
 nextBtn.addEventListener("click", () => {
     if (!nextClicked) {
-        question.innerHTML = "Thank you for loving me, with all my shortcomings bercandaaa.";
+        question.innerHTML = "Halo Teman Teman.";
         gif.src= "https://raw.githubusercontent.com/anstrea/anstrea.github.io/main/Respon/Skibidi%201/thanks.gif";
         nextBtn.innerHTML = "reply";
         nextClicked = true;
     } else {
-        window.location.href= "https://wa.me/6282245578978?text=Terserah%20Mau%20Reply%20Apaaa";
+        window.location.href= "https://wa.me/6282245578978?text=Aku%20Wibu";
     }
 });
