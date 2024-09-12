@@ -3,68 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Message</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        .message-box {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 400px;
-            width: 100%;
-        }
-        .message-box h1 {
-            margin: 0 0 10px;
-            font-size: 24px;
-            color: #333333;
-        }
-        .message-box p {
-            margin: 0;
-            font-size: 18px;
-            color: #555555;
-        }
-        .button-container {
-            margin-top: 20px;
-        }
-        .button {
-            background-color: #007bff;
-            color: #ffffff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Simple</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="message-box">
-        <h1>welcome</h1>
-        <p>punk 5 skibidi</p>
-        <div class="button-container">
-            <button class="button" onclick="showAlert()">Click Me</button>
-        </div>
-    </div>
+    <section id="home">
+        <h2>Home</h2>
+        <p>This is the home section of the website.</p>
+    </section>
 
-    <script>
-        function showAlert() {
-            alert("Thank you for clicking the button!");
-        }
-    </script>
+    <section id="about">
+        <h2>About</h2>
+        <p>This section is about the website. You can add any relevant information here.</p>
+    </section>
 
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, you can reach me at <a href="mailto:email@example.com">email@example.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Simple Website</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
